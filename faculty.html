@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/57b934c48d.js" crossorigin="anonymous"></script>
+    
+    <title>Examia-Student</title>
+    <style>
+    #navbar {
+      text-align: center;
+    }
+    .navbar-brand{
+      margin-left: 50px;
+    }
+    .collapse{
+      margin-left:10px;
+    }
+    #Features{
+        margin: 100px;
+    
+    }
+    #footer{
+    background-color: #000000;
+    color:#fff;
+    padding: 7%;
+    font-size: 2rem;
+    text-align: center;
+}
+.footer-para{
+    padding: 2%;
+    font-size: 1rem;
+}
+.font-aw{
+    padding: 1%;
+    color: #fff;
+}
+  
+
+  
+    #announcement{
+        text-align: center;
+        margin: 100px;
+    }
+    .A-title{
+        padding: 50px;
+    }
+    .icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem; 
+    }
+    .d-block{
+        height: 150px;
+        min-height: 90vh;
+    }
+
+    #hype{
+      margin-top: 50px;
+    }
+
+    </style>
+</head>
+<body>
+    <section id="navbar">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><i class="fa-solid fa-door-open fa-xl"></i>Examia</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="faculty.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://localhost:5000/add">Mark Entry</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://localhost:5000/">Result</a>
+              </li>
+              <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Settings
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Profile</a></li>
+                  <li><a class="dropdown-item" href="#">Account Settings</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul> -->
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link " aria-disabled="false" href="login.html">logout</a>
+              </li> -->
+            </ul>
+            <!-- <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <div class="container">
+            <section id="hype">
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <!-- <div class="carousel-item active">
+            <img src="/images/image1.jpeg" class="d-block w-100" alt="...">
+          </div> -->
+          <div class="carousel-item active">
+            <img src="/images/image2.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/images/image3.jpeg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      </section>
+      <section id="Features">
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="col d-flex align-items-start">
+            <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+              <i class="fa-solid fa-cash-register"></i>
+            </div>
+            <div>
+              <h3 class="fs-2 text-body-emphasis">Attendence</h3>
+              <p>Student Attendence and other sheets.</p>
+              <a href="https://docs.google.com/spreadsheets/d/16cStGSASxheTv5oscFUu9NaF7g8CsNKcQvscr5tLSSY/edit#gid=0" class="btn btn-primary">
+                Enter
+              </a>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+            <div>
+              <h3 class="fs-2 text-body-emphasis">Result</h3>
+              <p>Semester and mid-sem Report</p>
+              <a href="http://localhost:5000" class="btn btn-primary">
+                Enter
+              </a>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+              <i class="fa-solid fa-square-poll-vertical"></i>
+            </div>
+            <div>
+              <h3 class="fs-2 text-body-emphasis">Mark Entry</h3>
+              <p>Add students marks.</p>
+              <a href="http://localhost:5000/add" class="btn btn-primary">
+                Enter
+              </a>
+            </div>
+          </div>
+        </div>
+        </section>
+
+
+
+      <section id="announcement">
+        <div>
+            <h2 class="A-title">Announcements</h2>
+          <div class="d-grid gap-2">
+            <button class="btn btn-outline-primary btn-lg" type="button">Repeaters Examination Dates Released</button>
+            <button class="btn btn-outline-primary btn-lg" type="button">SAP project requirements</button>
+            <button class="btn btn-outline-primary btn-lg" type="button">Due Date for fullstack 2nd review</button>
+            <button class="btn btn-outline-primary btn-lg" type="button">Research Paper-Introduction Grades Released</button>
+            <button class="btn btn-outline-primary btn-lg" type="button">Announcement 5</button>
+            <button class="btn btn-outline-primary btn-lg" type="button">Announcement 6</button>
+          </div>
+        </div>
+      </section>
+
+      <footer class="white-section" id="footer">
+          <a href="https://twitter.com/karnavati_uni?t=yUjd_uiyCaL4Mckib6v-tQ&s=09"><i class="font-aw fa-brands fa-twitter"></i></a>
+          <a href="https://www.facebook.com/Karnavati.Uni?mibextid=ZbWKwL"><i class="font-aw fa-brands fa-facebook"></i></a>
+          <a href="https://instagram.com/karnavati.uni?igshid=YmMyMTA2M2Y="><i class="font-aw fa-brands fa-square-instagram"></i></a>
+          <a href="info@karnavatiunicersity.com"><i class="font-aw fa-solid fa-envelope"></i></a>
+          <a href="https://www.linkedin.com/school/karnavati.uni/"><i class="font-aw fa-brands fa-linkedin"></i></a>
+          <a href="https://youtube.com/@KarnavatiUniversity"><i class="font-aw fa-brands fa-youtube"></i></a>
+         
+
+          <p class="footer-para">© Copyright 2023 KU-COE </p>
+      
+      </footer>
+    </div>
+
+    
+</body>
+</html>
